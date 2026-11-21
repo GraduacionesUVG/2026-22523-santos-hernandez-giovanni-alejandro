@@ -1,0 +1,38 @@
+# Credenciales y variables de entorno reales
+.env
+src/.env
+*.key
+*.pem
+
+# Python y JupyterLab
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales (si se crean localmente)
+venv/
+.venv/
+env/
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archivos temporales o comprimidos pesados
+*.log
+*.tmp
+*.zip
+*.tar.gz
+
+.env
+.env.*
+!.env.example
+.cdsapirc
+__pycache__/
+.ipynb_checkpoints/
